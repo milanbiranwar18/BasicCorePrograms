@@ -22,7 +22,8 @@ namespace BasicCorePrograms
             //LogicalProgram.EvenOdd();
             //LogicalProgram.VowelConsonant();
             //LogicalProgram.QuotientandRemainder();
-            LogicalProgram.SwapTwoNumber();
+            //LogicalProgram.SwapTwoNumber();
+            LogicalProgram.LargerNumber();
 
         }
 
