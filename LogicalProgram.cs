@@ -49,5 +49,20 @@ namespace BasicCorePrograms
             Console.Write("Sum of Series upto{0} terms : {1} ", n, num);
             Console.ReadLine();
         }
+
+        public static void Factor()
+        {
+            int n, i;
+            Console.WriteLine("Enter the Number:");
+            n = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Factors of NUmber are:");
+            for (i = 1; i <= n; i++)
+            {
+                if (n % i == 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+        }
     }
 }
