@@ -116,5 +116,15 @@ namespace BasicCorePrograms
                 Console.WriteLine(ch + " is Consonant");
             }
         }
+
+        public static void QuotientandRemainder()
+        {
+            int divident = 25, divisor = 5;
+            int quotient = divident/ divisor;
+            int remainder = divident % divisor;
+
+            Console.WriteLine("Quotient :" + quotient);
+            Console.WriteLine("Remainder :" + remainder);
+        }
     }
 }
