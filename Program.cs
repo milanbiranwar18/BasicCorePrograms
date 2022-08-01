@@ -11,4 +11,5 @@ Console.WriteLine("Wellcome to Basic Core Programs");
 //LogicalProgram.leap_year();
 //LogicalProgram.PowerOfTwo();
 //LogicalProgram.HarmonicNumber();
-LogicalProgram.Factor();
+//LogicalProgram.Factor();
+LogicalProgram.EvenOdd();
