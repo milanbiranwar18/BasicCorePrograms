@@ -7,4 +7,5 @@ using BasicCorePrograms;
 
 Console.WriteLine("Wellcome to Basic Core Programs");
 
-FlipCoin.Flip_Coin();
+//FlipCoin.Flip_Coin();
+LogicalProgram.leap_year();
