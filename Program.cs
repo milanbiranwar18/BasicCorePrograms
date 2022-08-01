@@ -5,12 +5,25 @@
 
 using BasicCorePrograms;
 
-Console.WriteLine("Wellcome to Basic Core Programs");
+namespace BasicCorePrograms
+{
+    class Program
+    {
 
-//FlipCoin.Flip_Coin();
-//LogicalProgram.leap_year();
-//LogicalProgram.PowerOfTwo();
-//LogicalProgram.HarmonicNumber();
-//LogicalProgram.Factor();
-//LogicalProgram.EvenOdd();
-LogicalProgram.VowelConsonant();
+       public static void Main(string [] args)
+        {
+            Console.WriteLine("Wellcome to Basic Core Programs");
+
+            //FlipCoin.Flip_Coin();
+            //LogicalProgram.leap_year();
+            //LogicalProgram.PowerOfTwo();
+            //LogicalProgram.HarmonicNumber();
+            //LogicalProgram.Factor();
+            //LogicalProgram.EvenOdd();
+            //LogicalProgram.VowelConsonant();
+            LogicalProgram.QuotientandRemainder();
+
+        }
+
+    }
+}
