@@ -12,4 +12,5 @@ Console.WriteLine("Wellcome to Basic Core Programs");
 //LogicalProgram.PowerOfTwo();
 //LogicalProgram.HarmonicNumber();
 //LogicalProgram.Factor();
-LogicalProgram.EvenOdd();
+//LogicalProgram.EvenOdd();
+LogicalProgram.VowelConsonant();
