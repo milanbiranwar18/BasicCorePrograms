@@ -9,4 +9,5 @@ Console.WriteLine("Wellcome to Basic Core Programs");
 
 //FlipCoin.Flip_Coin();
 //LogicalProgram.leap_year();
-LogicalProgram.PowerOfTwo();
+//LogicalProgram.PowerOfTwo();
+LogicalProgram.HarmonicNumber();
