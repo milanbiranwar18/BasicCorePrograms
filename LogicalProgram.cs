@@ -19,8 +19,18 @@ namespace BasicCorePrograms
                 Console.WriteLine("Year is Leap Year");
             else
                 Console.WriteLine("Year is not a Leap Year");
+        }
+        
+        public static void PowerOfTwo()
+        {
+            int n = 31;
+            int var = 1;
 
-
+            for (int i = 1; i < n; i++)
+            {
+                var = var * 2;
+                Console.WriteLine(var);
+            }
         }
     }
 }
