@@ -126,5 +126,17 @@ namespace BasicCorePrograms
             Console.WriteLine("Quotient :" + quotient);
             Console.WriteLine("Remainder :" + remainder);
         }
+
+        public static void SwapTwoNumber()
+        {
+            int a = 5, b = 10;
+            Console.WriteLine("Before Swaping a = " + a + "b = " + b);
+            a = a * b;
+            b = a / b;
+            a = a / b;
+
+            Console.WriteLine("After Swaping a = " + a + "b = " + b);
+
+        }
     }
 }
